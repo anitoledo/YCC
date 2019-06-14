@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="yucatancountryclub.com.ycc.ContainerActivity">
+
+    <!--<include layout="@layout/actionbar_toolbar"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/bg_screen"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
+
+   <!-- <include layout="@layout/actionbar_toolbar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="?attr/actionBarSize"/>-->
+
+        <!--<FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/bottombar_height" />-->
+    <!--</android.support.v4.widget.NestedScrollView>-->
+
+    <!--<FrameLayout
+        android:background="@color/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/bottombar_height"/>
+-->
+    <!--<include layout="@layout/bottombar"></include>-->
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="48dip">
+
+    </android.support.v4.view.ViewPager>
+    <android.support.design.widget.TabLayout
+        android:backgroundTint="@color/input_bg"
+        android:id="@+id/sliding_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:tabTextColor="@color/colorSecondaryText"
+        app:tabIndicatorColor="@color/input_bg"
+        app:tabSelectedTextColor="@color/colorPrimary"/>
+</RelativeLayout>

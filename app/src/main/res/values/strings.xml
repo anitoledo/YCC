@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Residencial</string>
+
+    <string name="next">SIGUIENTE</string>
+    <string name="skip">SALTAR</string>
+    <string name="start">ENTENDIDO</string>
+
+    <string name="slide_1_title">Directorio</string>
+    <string name="slide_1_desc">Encuentra ayuda de cualquier servicio o necesidad que tengas; todo referente a Yucatan Country Blub</string>
+
+    <string name="slide_2_title">Reportes</string>
+    <string name="slide_2_desc">Puedes reportar cualquier anomalía, redactando un texto y adjuntando imágenes</string>
+
+    <string name="slide_3_title">Accesos</string>
+    <string name="slide_3_desc">Genera códigos de accesos para visitantes, proveedores o delivery; así podrás tener todo el control de tus visitas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="login_instruction">Introduce el usuario y contraseña que te corresponde.</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="tab_directory">Directorio</string>
+    <string name="tab_reports">Reportes</string>
+    <string name="tab_access">Accesos</string>
+    <string name="dummy_text">Dummy Text</string>
+    <string name="location">Ubicación:</string>
+    <string name="schedule">Horario</string>
+    <string name="schedule_2">Horario:</string>
+    <string name="call_text">Llamar</string>
+    <string name="message_text">Mail</string>
+    <string name="report_text">Crear reporte</string>
+    <string name="record_text">Historial</string>
+    <string name="access_text">Generar código</string>
+    <string name="reports">Reportes</string>
+    <string name="subject">Asunto:</string>
+    <string name="send">Enviar</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="folio">Folio:</string>
+    <string name="date">Fecha:</string>
+    <string name="time">Hora:</string>
+    <string name="name">Nombre</string>
+    <string name="profile">Perfil</string>
+    <string name="forgot_password">¿Olvidaste la contraseña?</string>
+    <string name="historial">Historial</string>
+    <string name="visitor_name">Nombre del visitante</string>
+    <string name="name_rule">Igual a su identificación oficial</string>
+    <string name="car_model">Modelo del auto</string>
+    <string name="car_color">Color</string>
+    <string name="car_color_2">Color:</string>
+    <string name="name_access">Nombre:</string>
+    <string name="time_access">Tiempo:</string>
+    <string name="date_access">Fecha:</string>
+    <string name="share">Compartir</string>
+    <string name="car">Auto:</string>
+    <string name="license_plate">Placas:</string>
+    <string name="choose_option">Elige una opción...</string>
+    <string name="camara">Cámara</string>
+    <string name="imagen">Galería</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="residential_documents">Documentos del Residencial</string>
+
+</resources>

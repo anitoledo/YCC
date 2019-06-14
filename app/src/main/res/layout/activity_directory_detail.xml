@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yucatancountryclub.com.ycc.DirectoryDetailActivity">
+
+
+    <include layout="@layout/actionbar_toolbar"/>
+
+
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/bg_screen"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"
+                android:orientation="vertical"
+                android:background="@color/bg_screen">
+
+                <TextView
+                    android:id="@+id/contactDetail_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/directory_detail_margin"
+                    android:layout_marginTop="@dimen/marginTop_titleDetail"
+                    android:text="Pórtico"
+                    android:transitionName="title"
+                    android:textColor="@android:color/black"
+                    android:textSize="@dimen/directory_detail_text_title"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/contactDetail_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/detail_text"
+                    android:text="Encargado de accesos a Yucatán Country Club"
+                    android:textSize="@dimen/directory_detail_text"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="@dimen/directory_detail_margin"
+                    android:layout_marginRight="@dimen/directory_detail_margin"
+                    android:layout_marginTop="@dimen/marginTop_titleDetail"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="@dimen/marginTop_titleDetail"
+                    android:layout_marginLeft="@dimen/directory_detail_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/location"
+                        android:textColor="@color/detail_text"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/directory_detail_text"
+                        android:gravity="center" />
+                    <TextView
+                        android:id="@+id/contactDetail_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Entrada Norte y Sur"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/directory_detail_text"
+                        android:textColor="@color/detail_text"
+                        android:layout_marginLeft="@dimen/marginRight_locationDetail"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginLeft="@dimen/directory_detail_margin">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/schedule_2"
+                        android:textColor="@color/detail_text"
+                        android:gravity="center"
+                        android:textSize="@dimen/directory_detail_text"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/contactDetail_schedule"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="24h / 365 días"
+                        android:layout_gravity="center"
+                        android:transitionName="schedule"
+                        android:gravity="center"
+                        android:textSize="@dimen/directory_detail_text"
+                        android:textColor="@color/detail_text"
+                        android:layout_marginLeft="@dimen/marginRight_locationDetail"/>
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="213dp"
+                    android:padding="7dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="90dp"
+                    android:onClick="makeCall"
+                    android:background="@layout/directory_detail_contact">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/call_text"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="54dp"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/call_button"
+                        />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="213dp"
+                    android:padding="7dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="20dp"
+                    android:onClick="sendEmail"
+                    android:background="@layout/directory_detail_contact">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/message_text"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="54dp"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/mail"
+                        android:layout_alignParentEnd="true"
+                        />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

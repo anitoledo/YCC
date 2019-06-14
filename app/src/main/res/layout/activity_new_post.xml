@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="yucatancountryclub.com.ycc.post.view.NewPostActivity"
+    android:background="@color/bg_screen">
+
+    <include layout="@layout/actionbar_toolbar_2"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/subjectReport"
+            android:layout_width="match_parent"
+            android:hint="Asunto"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margin_25"
+            android:layout_marginLeft="@dimen/margin_25"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="30sp"
+            android:background="@android:color/transparent"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fillViewport="true"
+                android:layout_marginBottom="45dp">
+                <LinearLayout
+                    android:id="@+id/focusEditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/margin_25">
+                    <EditText
+                        android:layout_marginRight="@dimen/margin_25"
+                        android:layout_marginLeft="@dimen/margin_25"
+                        android:id="@+id/textReport"
+                        android:hint="Escribe tu reporte..."
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"/>
+                    <!--<TextView
+                        android:id="@+id/delete"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_marginTop="@dimen/margin_25"
+                        android:text="Eliminar"/>
+                    <ImageView
+                        android:id="@+id/imgPhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:scaleType="center"/>-->
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/imagesRecycler"
+                        android:layout_marginTop="15dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/bg_screen"
+                        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+                </LinearLayout>
+
+            </ScrollView>
+
+            <!--<RelativeLayout
+                android:id="@+id/images_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="50dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="92dp">
+                    <ImageView
+                        android:id="@+id/delete"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_do_not_disturb_on_black_24dp"
+                        android:elevation="6dp"
+                        android:layout_marginLeft="75dp"
+                        android:layout_alignParentTop="true"/>
+                    <ImageView
+                        android:id="@+id/imgPhoto"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:scaleType="centerCrop"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_alignParentBottom="true"
+                        tools:src="@drawable/report_background"/>
+                </RelativeLayout>
+
+            </RelativeLayout>-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:padding="10dp"
+                android:background="#f2f2f2"
+                android:layout_alignParentBottom="true">
+
+                <ImageView
+                    android:id="@+id/addImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/picture_active_2x"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

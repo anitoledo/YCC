@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#45b5a8</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorLightPrimaryDark">#8e8e93</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorSecondaryText">#8e8e93</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BBBBBB</color>
+    <color name="colorAccent">#45b5a8</color>
+    <color name="white">#ffffff</color>
+    <color name="bg"></color>
+    <color name="schedule_text">#8f8e94</color>
+    <color name="detail_text">#4a4a4a</color>
+    <color name="button_bg">#45b5a8</color>
+    <color name="date">#3f2e22</color>
+
+
+    <color name="bg_screen">#ffffff</color>
+    <color name="input_bg">#f6f9fc</color>
+    <color name="button_border">#229184</color>
+    <color name="dot_active">#5D4037</color>
+    <color name="dot_inactive">#757575</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive</item>
+        <item>@color/dot_inactive</item>
+        <item>@color/dot_inactive</item>
+    </array>
+
+</resources>
+<!--30231a-->

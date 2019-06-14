@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/bg_screen"
+    android:padding="@dimen/paddingContent">
+
+    <ImageView
+        android:src="@drawable/logo1_2x"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:src="@drawable/slide3"
+        android:contentDescription="@string/slide_3_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_image_tutorial"/>
+
+    <TextView
+        android:id="@+id/slide1Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slide_3_title"
+        android:layout_marginTop="@dimen/margin_title_tutorial"
+        style="@style/TitleText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/slide_3_desc"
+        style="@style/TextSliDescription"/>
+
+</LinearLayout>

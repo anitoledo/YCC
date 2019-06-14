@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/directory"
+        title="@string/tab_directory"
+        barColorWhenSelected="@color/bg_screen"
+        icon="@drawable/directorio"/>
+    <tab
+        id="@+id/reports"
+        title="@string/tab_reports"
+        barColorWhenSelected="@color/bg_screen"
+        icon="@drawable/report"/>
+    <tab
+        id="@+id/access"
+        title="@string/tab_access"
+        barColorWhenSelected="@color/bg_screen"
+        icon="@drawable/acceso"/>
+    <tab
+        id="@+id/profile"
+        title="@string/profile"
+        icon="@drawable/perfil"/>
+</tabs>

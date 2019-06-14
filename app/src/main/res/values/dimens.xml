@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="paddingContent">20dp</dimen>
+    <dimen name="marginElements">15dp</dimen>
+    <dimen name="marginTitles">10dp</dimen>
+    <dimen name="marginBottomBar">48dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="margin_25">25dp</dimen>
+    <dimen name="bottombar_height">60dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="width_logo_actionbar">80dp</dimen>
+    <dimen name="height_actionbar">75dp</dimen>
+    <dimen name="margin_logo_actionbar">8dp</dimen>
+    <dimen name="width_userpp">40dp</dimen>
+    <dimen name="cardview_width">78dp</dimen>
+    <dimen name="marginTop_titleDetail">35dp</dimen>
+    <dimen name="marginRight_locationDetail">5dp</dimen>
+    <dimen name="cardview_report_height">150dp</dimen>
+    <dimen name="margin_image_tutorial">40dp</dimen>
+    <dimen name="margin_title_tutorial">50dp</dimen>
+    <dimen name="height_divider">1dp</dimen>
+    <dimen name="directory_detail_margin">36dp</dimen>
+    <dimen name="directory_detail_text_title">25dp</dimen>
+    <dimen name="directory_detail_text">14dp</dimen>
+
+    <dimen name="titles">20sp</dimen>
+    <dimen name="report_title">30sp</dimen>
+    <dimen name="desc">18sp</dimen>
+    <dimen name="textsize_contactname_cardview">17sp</dimen>
+    <dimen name="schedule_text">15sp</dimen>
+    <dimen name="report_text">15sp</dimen>
+</resources>

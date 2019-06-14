@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_screen"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="yucatancountryclub.com.ycc.view.fragment.AccessFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <include layout="@layout/actionbar_toolbar"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="?attr/actionBarSize"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/accessDetail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Perfil"
+            android:layout_marginTop="@dimen/marginTop_titleDetail"
+            android:textStyle="bold"
+            android:textSize="@dimen/textsize_contactname_cardview"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/padding_15"
+            android:onClick="logout"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardview_report_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_screen"
+    app:cardElevation="0dp"
+    android:foreground="?android:attr/selectableItemBackground">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:paddingRight="13dp"
+        android:layout_marginTop="6dp">
+        <TextView
+            android:id="@+id/reportTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:text="hora"
+            android:textColor="#80000000"
+            android:textSize="15sp"
+            android:layout_weight=".9"/>
+        <Button
+            android:id="@+id/viewSponsorInfo"
+            android:layout_width="@dimen/margin_25"
+            android:layout_height="@dimen/margin_25"
+            android:background="@drawable/flecha"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_weight=".1"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginTop="25dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/user"
+            android:layout_marginLeft="@dimen/margin_25"
+            android:layout_marginRight="7dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="80dp"
+            android:layout_marginBottom="6dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/reportTitle"
+                android:text="@string/dummy_text"
+                android:layout_marginRight="19dp"
+                android:textSize="@dimen/textsize_contactname_cardview"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/folio"
+                    android:textSize="@dimen/schedule_text"
+                    android:textColor="@color/schedule_text"/>
+                <TextView
+                    android:id="@+id/reportFolio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0123456"
+                    android:textSize="@dimen/schedule_text"
+                    android:textColor="@color/schedule_text"
+                    android:layout_marginLeft="@dimen/marginRight_locationDetail"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <FrameLayout
+            android:background="@color/divider"
+            android:layout_width="match_parent"
+            android:layout_gravity="right"
+            android:layout_marginLeft="16dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

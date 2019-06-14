@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "437993638635",
+    "firebase_url": "https://ycclub-e61ea.firebaseio.com",
+    "project_id": "ycclub-e61ea",
+    "storage_bucket": "ycclub-e61ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437993638635:android:d18698b0872011c4",
+        "android_client_info": {
+          "package_name": "yucatancountryclub.com.ycc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437993638635-94mvh529m81t1oru6fgblh8a4i0c0rci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx1O1O9irvAAVst7_1V2TBiQ48_7YiNx4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
